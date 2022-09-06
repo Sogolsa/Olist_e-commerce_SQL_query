@@ -1,5 +1,5 @@
 /* The Business Task:
-1. Compare sales per month from 2 different years.
+1.Find and Compare Revenue per month from 2 different years.
 2. Which product category has the highest revenue?
 */
 

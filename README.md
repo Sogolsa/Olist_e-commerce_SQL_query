@@ -26,8 +26,24 @@ This project focuses on cleaning and analyzing an e-commerce dataset to extract 
 - Business-oriented data exploration
 
 ## Next Steps / Visualization
-The cleaned and aggregated dataset was used to create a Tableau dashboard, showing:
-- Monthly revenue trends across different years  
-- Top-performing product categories by revenue  
+The cleaned and aggregated dataset was used to create a Tableau Businesss Performance dashboard, showing:
 
-This provides an interactive way to explore the results and derive business insights.
+A comparative revenue analysis between 2017 and 2018, alongside a breakdown of product category performance. The insights were derived from SQL queries executed on the sales dataset, focusing on monthly trends and category-level contributions.
+
+##  Revenue Trends: 2017 vs 2018
+
+The line graph illustrates monthly revenue fluctuations across both years. Key observations:
+
+- **2017 maintained consistent revenue** from January to August, peaking in March and April.
+- **2018 showed rapid growth**, starting lower but surpassing 2017 by October.
+- **September 2017 had a data anomaly** (only 166 in revenue), possibly due to missing or corrupted entries.
+- **October and November 2018** saw the highest revenue spikes, indicating strong Q4 performance.
+
+## Top Product Categories by Revenue
+
+The bar chart ranks product categories based on total revenue. Highlights include:
+
+- **bed-bath-table**: Highest overall revenue contributor.
+- **health-beauty** and **furniture-decor**: Strong performers with consistent sales.
+- Categories like **watches-gifts**, **auto**, and **cool-stuff** also showed notable traction.
+
